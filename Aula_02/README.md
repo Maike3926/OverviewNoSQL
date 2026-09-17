@@ -79,3 +79,6 @@ Formas de consultar e filtrar os dados armazenados na base:
 ```javascript
 // Mostrar todos os documentos/objetos de uma collection
 db.cliente.find();
+
+// Buscar filtrando por um campo específico
+db.cliente.find({ "nome": "José" });
